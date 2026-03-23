@@ -1,8 +1,7 @@
 ## Description
 
 Vous trouverez dans ce Git les ressources nécéssaire à la FabrikJam de l'Edulab Rennes 2.
-La "clavier" qui servira de manette est simulé par une carte "arduino micro pro". Voici comment cette dernière réagit :
-
+La "clavier" qui servira de manette est simulé par une carte "arduino micro pro". Suivez les étapes suivante pour savoir comment l'utiliser.
 
 ## Câblage
 
@@ -43,7 +42,7 @@ Aucune résistance externe nécessaire, branche simplement d'une des broche du b
 ## Modifier et téléverser le code
  
 1. Télécharge et installe [Arduino IDE](https://www.arduino.cc/en/software) : le logiciel qui permet d'écrire et de charger du code sur ta carte
-2. Copie le contenu de `Clavier_simulateur.ino` depuis ce Github et colle-le dans un nouveau sketch (remplace le code existant)
+2. Copie le contenu de [Clavier_simulateur.ino](https://github.com/EdulabRennes2/FabrikJam/blob/main/Clavier_simulateur.ino) depuis ce Github et colle-le dans un nouveau sketch (remplace le code existant)
 3. Branche l'Arduino en USB sur ton ordinateur
 4. Dans le menu **Outils > Type de carte**, sélectionne **Arduino Micro** ou **Arduino Leonardo**
 5. puis clique sur le bouton **Téléverser** (flèche →)
