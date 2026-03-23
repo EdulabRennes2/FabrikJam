@@ -23,9 +23,9 @@ Attention, il n'y a qu'un seul voir 2 GND(s) sur ardunio, tu aura donc besoin d'
 | `8` | Lettre B | `B` |
 | `9` | Lettre N | `N` |
 | `10` | Lettre G | `G` |
-| `11` | Lettre H | `H` |
-| `12` | Lettre J | `J` |
-| `13` | Touche Échap | `KEY_ESC` |
+| `14` | Lettre H | `H` |
+| `15` | Lettre J | `J` |
+| `16` | Touche Échap | `KEY_ESC` |
 
 ## Fonctionnement
 
