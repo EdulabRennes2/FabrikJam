@@ -43,6 +43,6 @@ Aucune résistance externe nécessaire, branche simplement d'une des broche du b
 ## Modifier et téléverser le code
  
 1. Télécharge et installe l'[IDE Arduino](https://www.arduino.cc/en/software)
-2. Copie le contenu de `clavier_arduino.ino` et colle-le dans un nouveau sketch (le code existant peut être entièrement remplacé)
+2. Copie le contenu de `clavier_arduino.ino` depuis ce Github et colle-le dans un nouveau sketch (le code existant peut être entièrement remplacé)
 3. Dans le menu **Outils > Type de carte**, sélectionne **Arduino Micro**
 4. Branche l'Arduino en USB, puis clique sur le bouton **Téléverser** (flèche →)
