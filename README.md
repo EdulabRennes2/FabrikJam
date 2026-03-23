@@ -42,7 +42,8 @@ Aucune résistance externe nécessaire, branche simplement d'une des broche du b
 
 ## Modifier et téléverser le code
  
-1. Télécharge et installe l'[IDE Arduino](https://www.arduino.cc/en/software)
-2. Copie le contenu de `clavier_arduino.ino` depuis ce Github et colle-le dans un nouveau sketch (le code existant peut être entièrement remplacé)
-3. Dans le menu **Outils > Type de carte**, sélectionne **Arduino Micro** ou **Arduino Leonardo**
-4. Branche l'Arduino en USB, puis clique sur le bouton **Téléverser** (flèche →)
+1. Télécharge et installe [Arduino IDE](https://www.arduino.cc/en/software) : le logiciel qui permet d'écrire et de charger du code sur ta carte
+2. Copie le contenu de `clavier_arduino.ino` depuis ce Github et colle-le dans un nouveau sketch (remplace le code existant)
+3. Branche l'Arduino en USB sur ton ordinateur
+4. Dans le menu **Outils > Type de carte**, sélectionne **Arduino Micro** ou **Arduino Leonardo**
+5. puis clique sur le bouton **Téléverser** (flèche →)
