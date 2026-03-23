@@ -8,25 +8,23 @@ La "clavier" qui servira de manette est simulé par une carte "arduino micro pro
 Chaque bouton se branche entre le **pin correspondant** et le **GND**.  
 Aucune résistance externe nécessaire, branche simplement d'une des broche du bouton sur le GND et l'autre sur la Pin du bouton correpondant.
 
-
 ## Mapping des touches
-
-| Pin | Touche | Description |
+| Pin de la Arduino | Touche Correspondante | Code en arduino |
 |-----|--------|-------------|
-| `0` | `Espace` | Barre espace |
-| `1` | `Entrée` | Touche Entrée / Return |
-| `2` | `Maj` | Shift gauche |
-| `3` | `Z` | Z|
-| `4` | `Q` | Q |
-| `5` | `S` | S |
-| `6` | `D` | D |
-| `7` | `V` | V |
-| `8` | `B` | B |
-| `9` | `N` | N |
-| `10` | `G` | G |
-| `11` | `H` | H |
-| `12` | `J` | J |
-| `13` | `Échap` | Touche Esc |
+| `0` | Barre espace | ` ` |
+| `1` | Touche Entrée / Return | `KEY_RETURN` |
+| `2` | Shift gauche | `KEY_LEFT_SHIFT` |
+| `3` | Lettre Z | `Z` |
+| `4` | Lettre Q | `Q` |
+| `5` | Lettre S | `S` |
+| `6` | Lettre D | `D` |
+| `7` | Lettre V | `V` |
+| `8` | Lettre B | `B` |
+| `9` | Lettre N | `N` |
+| `10` | Lettre G | `G` |
+| `11` | Lettre H | `H` |
+| `12` | Lettre J | `J` |
+| `13` | Touche Échap | `KEY_ESC` |
 
 ## Fonctionnement
 
