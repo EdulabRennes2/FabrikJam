@@ -5,26 +5,27 @@ La "clavier" qui servira de manette est simulé par une carte "arduino micro pro
 
 ## Câblage
 
-Chaque bouton se branche entre le **pin correspondant** et le **GND**.  
+Chaque bouton se branche d'une part sur une **Pin de la Arduino** (voir Mapping des touches ci-dessous) et le **GND de la Arduino**.  
 Aucune résistance externe nécessaire, branche simplement d'une des broche du bouton sur le GND et l'autre sur la Pin du bouton correpondant.
+Attention, il n'y a qu'un seul voir 2 GND(s) sur ardunio, tu aura donc besoin d'ajouter des GND via une [breadboard (voir le tuto)](https://www.youtube.com/shorts/zwslONicr28).
 
 ## Mapping des touches
-| Pin de la Arduino | Touche Correspondante | Code en arduino |
+| N° de pin sur Arduino | Touche Correspondante | Code en arduino |
 |-----|--------|-------------|
-| `pin n°0 (RX)` | Barre espace | ` ` |
-| `pin n°1 (TX)` | Touche Entrée / Return | `KEY_RETURN` |
-| `pin n°2` | Shift gauche | `KEY_LEFT_SHIFT` |
-| `pin n°3` | Lettre Z | `Z` |
-| `pin n°4` | Lettre Q | `Q` |
-| `pin n°5` | Lettre S | `S` |
-| `pin n°6` | Lettre D | `D` |
-| `pin n°7` | Lettre V | `V` |
-| `pin n°8` | Lettre B | `B` |
-| `pin n°9` | Lettre N | `N` |
-| `pin n°10` | Lettre G | `G` |
-| `pin n°11` | Lettre H | `H` |
-| `pin n°12` | Lettre J | `J` |
-| `pin n°13` | Touche Échap | `KEY_ESC` |
+| `0 (RX)` | Barre espace | ` ` |
+| `1 (TX)` | Touche Entrée / Return | `KEY_RETURN` |
+| `2` | Shift gauche | `KEY_LEFT_SHIFT` |
+| `3` | Lettre Z | `Z` |
+| `4` | Lettre Q | `Q` |
+| `5` | Lettre S | `S` |
+| `6` | Lettre D | `D` |
+| `7` | Lettre V | `V` |
+| `8` | Lettre B | `B` |
+| `9` | Lettre N | `N` |
+| `10` | Lettre G | `G` |
+| `11` | Lettre H | `H` |
+| `12` | Lettre J | `J` |
+| `13` | Touche Échap | `KEY_ESC` |
 
 ## Fonctionnement
 
